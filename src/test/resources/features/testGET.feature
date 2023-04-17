@@ -1,4 +1,6 @@
 Feature: Test API
+
+  @get
   Scenario: test GET
     Given url 'https://jsonplaceholder.typicode.com/posts/1'
     And method GET
